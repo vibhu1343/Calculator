@@ -1,0 +1,41 @@
+<html>
+      <head>
+	        <script>
+			        function add(){
+					             var a=parseInt(document.getElementById("1").value);
+								 var b= parseInt( document.getElementById("2").value);
+								 var c=a+b;
+								 document.getElementById("3").innerHTML=c
+								 }
+					function sub(){
+					             var a=document.getElementById("1").value;
+								 var b=document.getElementById("2").value;
+								 var c=a-b;
+								 document.getElementById("3").innerHTML=c
+								 }
+					                    
+      			    function mul(){
+					             var a=document.getElementById("1").value;
+								 var b=document.getElementById("2").value;
+								 var c=a*b;
+								 document.getElementById("3").innerHTML=c
+								 }
+			
+			
+			
+	  
+	        </script>
+			
+	  </head>
+	  <body>
+	        a=<input type="text" id="1">
+			b=<input type="text" id="2">
+			<br>
+			<button type="submit" onclick="add()">add</button>
+			<button type="submit" onclick="sub()">subtract</button>
+			<button type="submit" onclick="mul()">multiplication</button>
+			<p id="3"></P>
+	  </body>
+	 </html>
+			
+			
